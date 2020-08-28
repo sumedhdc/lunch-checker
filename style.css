@@ -1,0 +1,37 @@
+*{
+          margin: 0;
+          font-size: 1.1em;
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+      }
+      
+      body{
+          background-image: url(background.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+      }
+      
+      .container{
+          height: 100vh;
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: ;
+          align-content: center;
+          align-items: center;
+          margin: 5px;
+      }
+      
+      label{
+          text-align: center;
+          margin: 20px;
+      }
+      
+      .items,
+      .items:focus,
+      input[type='text']{
+          width: 20em;
+          margin: 5px;
+          outline: none;
+          border-radius: 10px;
+          padding: 1px 10px;
+      }

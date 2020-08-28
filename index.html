@@ -1,0 +1,25 @@
+<html lang="en" ng-app="firstApp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Check 2 Much App</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="angular.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body ng-controller="myController">
+        <div class="container">
+            <label>
+                Enter Items That You Eat For Lunch
+                <b>(Please use list Comma Separated dish)</b>
+                <br>
+                <b>NOTE:- </b>
+                Empty item does not consider
+            </label>
+            <input type="text" class="items" ng-model="items">
+            <button ng-click="check();">Check If Too Much</button>
+            <label><h1>{{message}}</h1></label>
+        </div>
+    </body>
+</html>
